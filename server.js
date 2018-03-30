@@ -22,7 +22,7 @@ server.addService(
 );
 server.bind('localhost:50051', grpc.ServerCredentials.createInsecure());
 server.start(function (err, data) {
-    console.log("已经启动了server端start")
+    console.log("已经启动了server端start111111111")
     console.log(err);
     console.log(data);
 });

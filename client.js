@@ -16,6 +16,6 @@ client.hello(request, function (err, data) {
     if (err) {
         console.error(err);
     }
-    console.log(data);
+    // console.log(data);
     console.log(data.getHellostring());
 })
